@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Pokemon Finder</title>
+</head>
+<header>
+
+    <div class="imagen" style=" text-align: center;">
+        <img src="logo.png" alt="logo" width="250" id="logo">
+    </div>
+
+</header>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <h1 >¡Encuentra tu pokemon!</h1>
+            <div class="col-md-8 col-6">
+
+                <input type="text" class="form-control" placeholder="Ingrese el nombre o nombre parcial del pokemon"
+                    id="inputPokemon">
+            </div>
+            <div class="col-md-4 col-6">
+                <button class="form-control btn" id="buscar">Buscar</button>
+            </div>
+            <div class="col-md-12"></div>
+
+
+        </div>
+
+        <section style="margin-top: 30px;">
+            <div class="row" style="margin-top: 30px;" id="resultado">
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+<footer>
+    <div class="row">
+        <div class="col-md-7">
+            <h4>Hecho por Rocio Pighin</h5>
+        </div>
+        <div class="col-md-1 ">
+            <a href="https://github.com/RoPighin/buscadorPokemons">
+                <h4><i class="bi bi-github"></i></h4>
+            </a>
+        </div>
+        <div class="col-md-1 ">
+            <a href="https://www.linkedin.com/in/ro-pighin-0aa9a520b/">
+                <h4><i class="bi bi-linkedin"></i></h4>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+</html>

@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#logo {
+    margin-left: 10px;
+    animation: aparecer 3s ease-in-out forwards;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    color: yellow;
+}
+
+.container {
+    margin-top: 40px;
+    flex: 1;
+}
+
+h5 {
+    color: #3A75C4;
+}
+
+.btn {
+    color: yellow;
+    background-color: #2b5a96;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: #2b5a96;
+    opacity: 0.8;
+    transition: 1.2s;
+}
+
+.btn:focus {
+    background-color: yellow;
+    color: #2b5a96;
+    opacity: 0.8;
+}
+
+.card-body {
+    background-color: #3A75C4;
+    color: yellow;
+}
+
+.card {
+    border: #3A75C4 1px solid;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    opacity: 0.6;
+}
+
+
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: #2b5a96;
+    margin-top: 30px;
+}
+
+h4 {
+    color: yellow;
+}
+
+a {
+    color: yellow;
+    width: 400px;
+}
+
+h1 {
+    color: #2b5a96;
+}
+
+#inputPokemon {
+    border-radius: 20px;
+}
