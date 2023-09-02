@@ -1,12 +1,12 @@
 # Buscador de Pokemons
 
-##Tecnologias utilizadas
--HTML
--CSS
--Bootstrap
--Javascript
+## Tecnologias utilizadas
+- HTML 
+- CSS 
+- Bootstrap 
+- Javascript
 
-##Instrucciones de uso
+## Instrucciones de uso
 
 **Abrir el archivo HTML**: Abrir el archivo index.html en el navegador.
 
