@@ -28,8 +28,8 @@ buscar.addEventListener('click', function () {
                         resultadosHTML += `
                             <div class="col-md-3">
                                 <div class="card">
-                                  <img src="pokebola.png" width="50" style="margin-top:-20px; margin-left:-5px;">
-                                    <img src="${pokemonImg.sprites.other.home.front_default}" width="50" class="card-img-top" alt="${pokemon.name} width=100px">
+                                  <img src="pokebola.png" width="50" id="pokebola">
+                                    <img src="${pokemonImg.sprites.other.home.front_default}" class="card-img-top" alt="${pokemon.name}">
                                     <div class="card-body" style="margin-top:20px;">
                                         <h5 class="card-title text-center">${pokemon.name.toUpperCase()}</h5>
                                     </div>
